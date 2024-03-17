@@ -23,6 +23,7 @@
 	- folder: utils
 4. start server
 	- app.js create app
+	- require dotenv and configure it
 	- server.js require the app and start the server
 5. app.js
 	- require body-parser and use it
@@ -42,8 +43,8 @@
 11. add db connection in server.js
 12. test semuanya kat postman
 13. if semua ok, then add query, limit fields, sort & paginate features into tourController
-14. add tour alias
-15. move the above query features into apiFeatures.js
+14. move the above query features into apiFeatures.js
+15. add tour alias
 16. create getTourStats & getMonthlyPlan using Tour.aggregate
 17. if semua ok, then dalam tourModel
 	- create virtual properties
